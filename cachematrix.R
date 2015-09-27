@@ -5,6 +5,12 @@
 
 makeCacheMatrix <- function(x = matrix()) {
 
+  inverse<-NULL
+  set<-function(B){
+    A<<-B
+    inverse<<-NULL
+  }
+    
 }
 
 
